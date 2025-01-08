@@ -58,5 +58,7 @@ E = np.matmul(A,C)
 print("E: ", E, "\n")
 
 # Calculate F = CA
-F = np.matmul(A,C)
-print("F: ", F, "\n")
+F1 = np.matmul(C,A)
+F2 = np.matmul(A,C)
+print("F1: ", F1, "\n")
+print("F2: ", F2, "\n")
