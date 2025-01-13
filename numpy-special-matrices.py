@@ -40,3 +40,14 @@ print("EXERCISES: -------------------------------")
 # Given
 A = np.array([[1,-1,1], [0,1,0], [-1,2,1]])
 B = np.array([[0.5,1.5,-0.5], [0,1,0], [0.5,-0.5,0.5]])
+AB = np.dot(A,B)
+print("\nMatrix product AB: \n", AB)
+BA = np.dot(B,A)
+print("\nMatrix product BA: : \n", BA)
+
+# Print out the transpose of both matrix A and matrix B.
+# What is the first row of each transposed matrix?
+A_transpose = A.T
+print("\nA_transpose: \n", A_transpose)
+B_transpose = B.T
+print("\nB_transpose: \n", B_transpose)
