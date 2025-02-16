@@ -26,3 +26,8 @@ A = np.array([[2,0,-2,3],[-1,4,-1,0],[3,-1,-2,2],[-2,-1,3,0]])
 b = np.array([4,1,2,-2])
 a,b,c,d = np.linalg.solve(A,b)
 print((a,b,c,d))
+
+
+A = np.array([[0, 2],[1, 2]])
+print(A)
+ # b = np.array([blank 3,4])

@@ -53,3 +53,13 @@ b = np.array([2,0,-4])
 x,y,z = np.linalg.solve(A,b)
 
 print("\nThe next solution is: \n",(x, y, z))
+
+# Define the vector as a NumPy array
+v = np.array([-2, -3, 0, 5, 1])
+
+# Compute the length (magnitude) using numpy's norm function
+length_v = np.linalg.norm(v)
+
+# Print the result
+print("Length of the vector:", length_v)
+
